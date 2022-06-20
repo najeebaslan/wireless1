@@ -1,0 +1,16 @@
+Add this in Node js 
+
+var app = express();
+var cors = require('cors');
+app.use(cors({
+    origin: ["http://localhost:3000", "http://127.0.0.1:3000"],
+    credentials: true,
+}));
+
+///////////////////////////////////////////////////////////////////////////////////// 
+Add this in Flutter
+
+
+//  ملاحضه.................. يجب اضافه البورت الخاص بك في الرابط التالي
+flutter run -d chrome --web-hostname=127.0.0.1 --web-port=3000
+Size My Applaction 1G.13
